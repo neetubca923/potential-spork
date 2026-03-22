@@ -171,3 +171,70 @@ I am a BCA student currently learning the fundamentals of web development. My go
     </div>
 </body>
 </html>
+
+
+
+
+
+body {
+  margin: 0;
+  font-family: Arial;
+  background: #0a66c2;
+}
+
+.header {
+  height: 150px;
+  background: #007bffc2;
+}
+
+.card {
+  background: white;
+  margin: -60px 20px 20px;
+  padding: 20px;
+  border-radius: 20px;
+  position: relative;
+}
+
+.profile-img {
+  width: 100px;
+  height: 100px;
+  border-radius: 40%;
+  border: 4px solid white;
+  position: absolute;
+  top: -70px;
+  left: 20px;
+  object-fit: cover;
+}
+
+.card h2 {
+  margin-top: 60px;
+}
+
+.profile-card {
+  background: white; 
+  margin: -110px 20px 20px;
+  pedding: 20px;
+  border-radius: 50;
+  position: relative;
+}
+button, .btn {
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    transition: 0.3s;
+}
+
+button:hover, .btn:hover {
+    transform: scale(1.05);
+}
+.skills span {
+    box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+}
+.profile-img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto 15px;
+    border: 3px solid #fff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, .2);
+}
