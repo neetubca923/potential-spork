@@ -18,3 +18,156 @@ I am a BCA student currently learning the fundamentals of web development. My go
 ## 📍 Contact Information
 - **Email:** neetukumari884032@gmail.com
 - **Location:** Ghazipur, Uttar Pradesh, India
+
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            font-family: Arial;
+            margin: 0;
+            background: #f3f2ef;
+        }
+
+        /* Navbar */
+        .nav {
+            background: #0a66c2;
+            padding: 12px;
+            text-align: center;
+        }
+
+        .nav a {
+            color: white;
+            margin: 10px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        /* Cover */
+        .cover {
+            height: 30px;
+            background: linear-gradient(to right, #0A9AC2, right, #0a66c2, #004182);
+
+        }
+
+        /* Profile */
+        .profile {
+            text-align: center;
+            background: white;
+            padding: 20px;
+            margin: -70px 15px 15px;
+            border-radius: 15px;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.2);
+        }
+
+        .profile img {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            border: 4px solid white;
+        }
+
+        /* Button */
+        .btn {
+            display: inline-block;
+            padding: 12px 20px;
+            background: #0a66c2;
+            color: white;
+            border-radius: 25px;
+            text-decoration: none;
+            margin: 10px;
+        }
+
+        /* Section Box */
+        .box {
+            background: white;
+            margin: 15px;
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+        }
+
+        /* Skills */
+        .skills span {
+            display: inline-block;
+            background: #0a66c2;
+            color: white;
+            padding: 6px 12px;
+            margin: 5px;
+            border-radius: 15px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <div class="nav">
+        <a href="#">Home</a>
+    </div>
+
+    <!-- Cover -->
+    <div class="cover"></div>
+
+    <!-- Profile -->
+    <div class="header"></div>
+
+<div class="card">
+<img src="img/n.jpg" class="profile-img">
+  <h2>Neetu Kumari</h2>
+  <p> BCA student|Aspiring Web Developer</p>
+</div>
+
+        <a href="https://www.linkedin.com/in/neetu-kumari-69a716357" target="_blank" class="btn">
+            💼 LinkedIn Profile
+        </a>
+    </div>
+
+    <!-- About -->
+    <div class="box">
+        <h3>About Me</h3>
+        <p>
+            I am a BCA student and an aspiring web developer. 
+            I am learning HTML, CSS, and JavaScript step by step. 
+            My goal is to become a software developer.
+        </p>
+    </div>
+
+    <!-- Skills -->
+    <div class="box">
+        <h3>Skills</h3>
+        <div class="skills">
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>Basic JavaScript</span>
+            <span>Computer Basics</span>
+        </div>
+    </div>
+
+    <!-- Projects -->
+    <div class="box">
+        <h3>Projects</h3>
+
+        <p><b>1. Portfolio Website</b></p>
+        <p>This is my personal website created using HTML & CSS.</p>
+
+        <p><b>2. First HTML Project</b></p>
+        <p>I created my first basic website as a beginner.</p>
+    </div>
+
+    <!-- Contact -->
+    <div class="box">
+        <h3>Contact</h3>
+        <p>Email: neetukumari884032@gmail.com</p>
+        <p>Location: Ghazipur, Uttar Pradesh</p>
+    </div>
+</body>
+</html>
